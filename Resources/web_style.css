@@ -1,0 +1,435 @@
+/* NAVBAR */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.blue-line ::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  bottom: -9px;
+  background-color: #0171ad;
+  left: 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.blue-line {
+  position: relative;
+}
+
+.section-nav {
+  padding-left: 320px;
+  padding-right: 320px;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.nav-item {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+}
+
+.btn-navbar {
+  width: 120px;
+  height: 45px;
+  background-color: #0171ad;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+/* NAVBAR */
+
+/* MODAL Form */
+.btn-close-form {
+  position: relative;
+  left: 570px;
+  bottom: 10px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.btn-form-modal-submit {
+  background-color: #0171ad;
+}
+
+.terms-label a:link,
+a:visited {
+  color: black;
+}
+
+.terms-label {
+  margin-top: 5px;
+  font-size: 11px;
+  font-weight: 200;
+}
+
+.form-check-input {
+  width: 20px;
+  height: 20px;
+  background-color: #f3f3f3;
+}
+
+.form-control {
+  background-color: #f3f3f3;
+  margin-top: 15px;
+}
+
+/* MODAL Form */
+
+/* First Section*/
+.img-banner {
+  width: 100%;
+}
+
+.first-section {
+  height: 560px;
+  background-color: #f5f5f5;
+}
+
+.card-first-section {
+  width: 475px;
+  height: 300px;
+  position: absolute;
+  bottom: 220px;
+  left: 320px;
+  box-shadow: 0px 5px 19px 3px #000000;
+}
+
+.card-first-section.card-body {
+  margin-left: 13px;
+}
+
+.card-first-section-h5 {
+  margin-top: 7px;
+  font-size: 37px;
+  line-height: 42px;
+}
+
+.card-first-section-p {
+  font-weight: 100;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.btn-first-section {
+  width: 120px;
+  height: 33px;
+  color: white;
+  background-color: #0171ad;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+/* First Section*/
+/* Second section*/
+.second-section {
+  height: 800px;
+  background-color: #f5f5f5;
+}
+
+.card-second-section {
+  margin-top: 75px;
+  background-color: #f5f5f5;
+  margin-left: 0px;
+}
+
+.pre-title-card-section-2 {
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.title-card-section-2 {
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 42px;
+}
+
+.title-card-section-2-span {
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 42px;
+}
+
+.card-text-section-2 {
+  font-weight: 200;
+  font-size: 16px;
+  margin-top: 25px;
+}
+
+.btn-section-2 {
+  background-color: #0171ad;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 130px;
+  height: 33px;
+  margin-top: 50px;
+}
+
+/* MODAL VIDEO POP-UP */
+/* MODAL VIDEO POP-UP */
+
+.play-btn {
+  width: 100px;
+  height: 100px;
+}
+
+.video-btn {
+  background-image: URL(HP_BPS_Security_Services_Video_Thumbnail_01.png);
+  width: 731px;
+  height: 560px;
+  margin-right: 500px;
+  position: relative;
+  left: -100px;
+}
+
+.second-section .modal-dialog {
+  max-width: 800px;
+  margin: 250px auto;
+}
+
+.second-section .modal-body {
+  position: relative;
+  padding: 0px;
+}
+.second-section .btn-close {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 0px;
+  top: -40px;
+  border-radius: 50%;
+  color: black;
+  background-image: url(Close-icon.png);
+}
+/* MODAL VIDEO POP-UP */
+/* MODAL VIDEO POP-UP */
+/* Second section*/
+
+.custom-6-cards-section {
+  height: 1273px;
+}
+
+.custom-6-cards-section h2 {
+  margin-top: 70px;
+  margin-bottom: 100px;
+  font-size: 48px;
+  line-height: 54px;
+  font-weight: 300;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.custom-6-cards-section span {
+  font-size: 48px;
+  list-style: 54px;
+}
+
+.card-6 {
+  border-bottom: 0px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+/* 2 cards 1 video 1 pic secction*/
+.bg-video {
+  background-color: #f5f5f5;
+}
+
+.bg-custom-section-2cards-1video {
+  background-color: #f5f5f5;
+  height: 700px;
+}
+
+.bg-custom-section-2cards-1video h2 {
+  margin-top: 10px;
+  margin-bottom: 100px;
+  font-size: 48px;
+  line-height: 54px;
+  font-weight: 300;
+  margin-right: 50px;
+  margin-left: 50px;
+  position: relative;
+  top: 50px;
+}
+
+.bg-custom-section-2cards-1video-part1.card-body {
+  background-color: #f5f5f5;
+}
+
+.pre-title-2-cards {
+  font-weight: 200;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.part-1 h5 :nth-child(2) {
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 200;
+}
+
+.part-1 span {
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 500;
+}
+
+.part-1 p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.part-1 .btn-primary {
+  background-color: #0171ad;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 120px;
+  height: 33px;
+  margin-top: 30px;
+}
+
+.pre-title-2-cards {
+  font-weight: 200;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.part-2 h5 :nth-child(2) {
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 200;
+}
+
+.part-2 span {
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 500;
+}
+
+.part-2 p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.part-2 .btn-primary {
+  background-color: #0171ad;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 120px;
+  height: 33px;
+  margin-top: 30px;
+}
+
+.row-part-2 {
+  position: relative;
+  top: 100px;
+}
+
+/* 2 cards 1 video 1 pic secction*/
+/* Bottom Section */
+
+.btn-bottom-white {
+  background-color: white;
+  color: #0171ad;
+}
+
+.bg-custom-bottom-blue {
+  width: 100%;
+  background-color: #0171ad;
+  height: 388px;
+}
+
+.bg-custom-bottom-blue .card {
+  background-color: #0171ad;
+}
+
+.bg-custom-bottom-blue .card-body {
+  color: white;
+}
+
+.bg-custom-bottom-blue .card-title {
+  margin-top: 50px;
+}
+
+.bg-custom-bottom-blue .sp1 {
+  font-weight: 200;
+  font-size: 38px;
+  line-height: 42px;
+}
+
+.bg-custom-bottom-blue .sp2 {
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 42px;
+}
+
+.bg-custom-bottom-blue .card-text {
+  font-size: 16px;
+  font-weight: 100;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 40px;
+}
+
+.btn-bottom-white {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100px;
+  margin-left: 600px;
+  position: relative;
+  top: 40px;
+}
+
+.last-section {
+  margin-right: 200px;
+  margin-left: 200px;
+  height: 200px;
+}
+
+.accordion-item {
+  border: none;
+}
+
+.accordion-header {
+  border: none;
+}
+
+.accordion-button.bg-white {
+  border: none;
+}
+
+legend:nth-of-type(1) {
+  font-size: 18px;
+}
+
+.col-even {
+  margin-right: 40px;
+}
+
+.accordion-button:not(.collapsed),
+.accordion-button:not(.collapsed):focus {
+  box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px;
+}
